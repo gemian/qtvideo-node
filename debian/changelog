@@ -1,3 +1,9 @@
+qtvideo-node (0.2.2+gemian) stretch; urgency=medium
+
+  * Building for gemian.
+
+ -- Adam Boardman <adamboardman@gmail.com>  Tue, 5 Feb 2018 07:47:53 +0000
+
 qtvideo-node (0.2.2+ubports) xenial; urgency=medium
 
   * Imported to UBports

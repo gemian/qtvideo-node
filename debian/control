@@ -1,18 +1,18 @@
 Source: qtvideo-node
 Section: libs
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer: Adam Boardman <adamboardman@gmail.com>
 Build-Depends: debhelper (>= 9),
                libgl1-mesa-dev[!armhf],
                libgles2-mesa-dev[armhf],
-               libhybris-dev (>=0.1.0+git20131207+e452e83-0ubuntu3),
+               libhybris-dev,
                libmedia-hub-dev(>=3.0.0),
                libplatform-api-headers | ubuntu-platform-api-headers,
                libpulse-dev,
                libqt5opengl5-dev,
-               libqtubuntu-media-signals-dev (>=0.3+15.10.20150618.1-0ubuntu1),
+               libqtubuntu-media-signals-dev,
                pkg-config,
-               qt5-default,
+               qtbase5-dev,
                qtdeclarative5-dev,
                qtdeclarative5-private-dev,
                qtmultimedia5-dev,
